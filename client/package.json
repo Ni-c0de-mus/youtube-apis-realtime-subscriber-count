@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue serve App.vue",
+    "build": "vue build App.vue"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^3.0.0-rc.3",
+    "animated-number-vue": "^0.1.4",
+    "moment": "^2.24.0",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "expose-loader": "^0.7.5"
+  }
+}
